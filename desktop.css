@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main_container {
+    
+  
+
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    background-image: url(/images/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10rem;
+}
+
+header h1 {
+    color: hsl(0, 0%, 100%);
+    border-color: hsl(0, 0%, 100%);
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+    margin-top: 9rem;
+    font-size: 60px;
+    padding: 2rem;
+    margin-left: 10rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 150px;
+
+}
+
+.navigation img {
+    padding-top: 40px;
+    margin-left: 10rem;
+    float: left;
+}
+
+.navigation::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-right: 100px;
+    float: right;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 40px;
+}
+
+.navigation a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.about{
+    height: 832px;
+}
+
+.about img{
+    margin-left: 18rem;
+    width: 950px;
+}
+
+.about_info{
+    width: 700px;
+    margin-left: 950px;
+    position: relative;
+    bottom: 350px;
+    left: 80px;
+    background-color:hsl(0, 0%, 100%);
+    padding: 5rem;
+
+}
+
+.about_info h2{
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 60px;
+}
+
+.about_info p{
+    font-family: 'Alata', sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    flex-direction: row;
+    
+
+}
+
+.gallery img{
+    padding: 0 50px;
+}
+.gallery h3{
+    position: relative;
+    top: 450px;
+    left: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: aliceblue;
+    width: 200px;
+    font-size: 35px;
+    font-weight: 300;
+    
+}
+.creations{
+    margin-bottom: 10rem;
+}
+
+.creations h2{
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-size: 50px;
+    margin-left: 17rem;
+}
+
+.creations button{
+    float: right;
+    position: absolute;
+    left: 1430px;
+    top:1600px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    padding: 15px 45px;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    border: 2px solid;
+    background-color: white;
+}
+
+.creations button:hover{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    margin: 0;
+    padding-top: 40px;
+}
+.footer_info{
+    margin-left: 14.6rem;
+}
+
+.footer_info::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.footer_info ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-right: 100px;
+    float: left;
+}
+
+.footer_info li{
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+
+.footer_info a{
+    color:hsl(0, 0%, 100%);
+    text-decoration: none;
+    
+}
+
+.footer_info p{
+    float:right;
+    color:hsl(0, 0%, 100%);
+    margin-right: 17.5rem;
+    margin-top: 2.3rem;
+}
+.contact_icon{
+    float: right;
+    padding-right: 20px;
+}
+
+.footer_icon{
+    margin-right: 16.8rem;
+    margin-left: 18rem; 
+
+}
